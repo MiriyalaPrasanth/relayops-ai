@@ -1,0 +1,22 @@
+# Java and Maven
+target/
+*.class
+*.jar
+*.war
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local runtime and secrets
+.env
+.env.*
+!*.env.example
+data/
+logs/
+
